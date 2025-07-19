@@ -57,7 +57,6 @@ def ask_and_email():
 
     user_query = input("Hello, how may I help you? : ").strip()
 
-    # Update the receiver email in EmailTools dynamically
     for tool in agent.tools:
         if isinstance(tool, EmailTools):
             tool.receiver_email = receiver_email
@@ -78,12 +77,3 @@ def ask_and_email():
 
 if __name__ == "__main__":
     ask_and_email()
-
-    
-# agent.cli_app(
-#     stream=False,
-#     show_full_reasoning=True,
-#     stream_intermediate_steps=True,
-# )
-
-# agent.print_response("send an email to <receiver_email>")
