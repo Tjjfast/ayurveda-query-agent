@@ -20,8 +20,8 @@ Includes retrieval-augmented generation (RAG), conversation memory, and natural 
 ### 1. Clone the Repo
 
 ```
-git clone https://github.com/yourusername/ayurveda-research-agent.git
-cd ayurveda-research-agent
+git clone https://github.com/yourusername/ayurveda-query-agent.git
+cd ayurveda-query-agent
 ```
 ### 2. Install Requirements
 ```
