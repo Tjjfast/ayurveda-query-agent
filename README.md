@@ -1,4 +1,4 @@
-# 🧠 Ayurveda Research Agent
+# Ayurveda Research Agent
 
 An AI agent built using [Agno](https://docs.agno.ai) and Gemini 1.5 Flash that answers user questions based on a specific Ayurveda research paper and sends the responses to the user’s email using SMTP via `agno.tools.email`.  
 Includes retrieval-augmented generation (RAG), conversation memory, and natural language reasoning.
@@ -40,7 +40,6 @@ DEFAULT_EMAIL=recipient@example.com
 ```
 python agent.py
 ```
-You'll be prompted to enter the recipient's email and your question. The agent will fetch the answer and email it.
 ---
 ## Example
 ```
@@ -65,6 +64,7 @@ agno.tools.email – Built-in SMTP email sender
 lancedb – Vector storage for RAG
 
 SQLite – Memory persistence
+
 ---
 ## Project Structure :
 ```
